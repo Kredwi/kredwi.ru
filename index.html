@@ -1,167 +1,298 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Сайт который дает основное понимание о том, кто такой Kredwi, об его видео, плагинах и о сетапе.">
-    <meta name="keywords" content="kredwi,kredvi, krdw, kredit, кредит, кредви, кто такой кредви, ютубер, стример, разработчик, программист, джава, джаваскрипт, java, javascript, видеомейкер, контент-мейкер">
-    <meta name="author" content="Kredwi">
-    <meta property="og:title" content="Kredwi - официальный сайт">
-    <meta property="og:description" content="Основная информация кто такой Kredwi, о его видео плагинах, видео и сетапе">
-    <meta property="og:image" content="https://gravatar.com/avatar/a77a4e4851f74dd401c0567966df96b8c963cc769b6aaed3f3f0028d2c1d0a39?s=512">
-    <meta property="og:url" content="https://kredwi.ru">
-    <meta property="og:type" content="website">
-<meta property="og:site_name" content="Kredwi - официальный сайт">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Kredwi - официальный сайт">
-<meta name="twitter:description" content="Основная информация кто такой Kredwi, об его видео плагинах и сетапе">
-<meta name="twitter:image" content="https://gravatar.com/avatar/a77a4e4851f74dd401c0567966df96b8c963cc769b6aaed3f3f0028d2c1d0a39?s=512">
-<meta name="twitter:site" content="@kredwi">
-<link rel="canonical" href="https://kredwi.ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Сайт который дает основное понимание о том, кто такой Kredwi, об его видео, плагинах и о сетапе."
+    />
+    <meta
+      name="keywords"
+      content="kredwi,kredvi, krdw, kredit, кредит, кредви, кто такой кредви, ютубер, стример, разработчик, программист, джава, джаваскрипт, java, javascript, видеомейкер, контент-мейкер"
+    />
+    <meta name="author" content="Kredwi" />
+    <meta property="og:title" content="Kredwi - официальный сайт" />
+    <meta
+      property="og:description"
+      content="Основная информация кто такой Kredwi, о его видео плагинах, видео и сетапе"
+    />
+    <meta
+      property="og:image"
+      content="https://gravatar.com/avatar/a77a4e4851f74dd401c0567966df96b8c963cc769b6aaed3f3f0028d2c1d0a39?s=512"
+    />
+    <meta property="og:url" content="https://kredwi.ru" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kredwi - официальный сайт" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kredwi - официальный сайт" />
+    <meta
+      name="twitter:description"
+      content="Основная информация кто такой Kredwi, об его видео плагинах и сетапе"
+    />
+    <meta
+      name="twitter:image"
+      content="https://gravatar.com/avatar/a77a4e4851f74dd401c0567966df96b8c963cc769b6aaed3f3f0028d2c1d0a39?s=512"
+    />
+    <meta name="twitter:site" content="@kredwi" />
+    <link rel="canonical" href="https://kredwi.ru" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/adaptive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>Kredwi - официальный сайт</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/adaptive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <div id="burder-menu">
-        <div class="burder-wrapper">
-            <button onclick="toggleBurgerMenu()" id="burder-exit"><i class="fas fa-times"></i></button>
-            <div id="elements">
-                <a onclick="toggleBurgerMenu()" href="#main-data">Обо мне</a>
-                <a onclick="toggleBurgerMenu()" href="#video">Видео</a>
-                <a onclick="toggleBurgerMenu()" href="#complete-plugins">Готовые плагины</a>
-                <a onclick="toggleBurgerMenu()" href="#video">Мой сетап</a>
-                <a onclick="toggleBurgerMenu()" href="#last-laptop">Прошлый ноутбук</a>
-            </div>
+      <div class="burder-wrapper">
+        <button onclick="toggleBurgerMenu()" id="burder-exit">
+          <i class="fas fa-times"></i>
+        </button>
+        <div id="elements">
+          <a onclick="toggleBurgerMenu()" href="#main-data">Обо мне</a>
+          <a onclick="toggleBurgerMenu()" href="#video">Видео</a>
+          <a onclick="toggleBurgerMenu()" href="#complete-plugins"
+            >Готовые плагины</a
+          >
+          <a onclick="toggleBurgerMenu()" href="#video">Мой сетап</a>
+          <a onclick="toggleBurgerMenu()" href="#last-laptop"
+            >Прошлый ноутбук</a
+          >
         </div>
+      </div>
     </div>
     <div id="header">
-        <img src="https://new.kredwi.ru/img/kredwispeed.png" alt="">
-        <div id="tabs">
-            <a href="#main-data">Обо мне</a>
-            <a href="#video">Видео</a>
-            <a href="#complete-plugins">Готовые плагины</a>
-            <a href="#video">Мой сетап</a>
-            <a href="#last-laptop">Прошлый ноутбук</a>
-        </div>
-        <button onclick="toggleBurgerMenu()" id="burder-button"><i class="fas fa-bars"></i></button>
+      <img src="https://new.kredwi.ru/img/kredwispeed.png" alt="" />
+      <div id="tabs">
+        <a href="#main-data">Обо мне</a>
+        <a href="#video">Видео</a>
+        <a href="#complete-plugins">Готовые плагины</a>
+        <a href="#video">Мой сетап</a>
+        <a href="#last-laptop">Прошлый ноутбук</a>
+      </div>
+      <button onclick="toggleBurgerMenu()" id="burder-button">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
     <div id="content">
-        <div class="content-1">
-            <div id="main-data">
-                    <div id="data">
-                        <h1>Kredwi - Официальный сайт</h1>
-                        <p>Стример, ютубер который, из создание видео перешел в программирование.</p>
-                    </div>
-                    <img src="image/New Project.png" alt="">
-            </div>
+      <div class="content-1">
+        <div id="main-data">
+          <div id="data">
+            <h1>Kredwi - Официальный сайт</h1>
+            <p>
+              Стример, ютубер который, из создание видео перешел в
+              программирование.
+            </p>
+          </div>
+          <img src="image/New Project.png" alt="" />
         </div>
-        <div class="content-2" id="video">
-            <div class="components">
-                <a href="https://youtu.be/wb9SfsxcWHw" class="component">
-                    <img src="https://new.kredwi.ru/img/previews/hdmi.jpg" alt="" srcset="">
-                    <h6 class="design-color">Где скачивать моды?</h6>
-                    <p>В этом видео я вам расскажу про то, какие сайты использовал каждый, для того что бы скачивать моды в Майнкрафт. Все мы любим играть с модами, но у нас всегда появляется вопрос. Где скачать безопасно моды? В этом видео я про это расскажу.</p>
-                </a>
-                <a href="https://youtu.be/pgMv4uEAWSM" class="component">
-                    <img src="https://new.kredwi.ru/img/previews/bbinm.jpg" alt="" srcset="">
-                    <h6 class="design-color">ЧТО СТРОИТ ЭТОТ ГЕНИЙ?! | BUILDBATTLE в Minecraft</h6>
-                    <p>Гений построил постройку, которую сложно описать не то что словами, её даже повторить невозможно.</p>
-                </a>
-                <a href="https://youtu.be/lZJOzJVdaU4" class="component">
-                    <img src="https://new.kredwi.ru/img/previews/sinm.jpg" alt="" srcset="">
-                    <h6 class="design-color">ЭТО НЕ ПРОСТО СНАЙПЕР?? ДА ЭТО ЧИТЕР!!!! | Снайперы в Minecraft</h6>
-                    <p>В игре "Снайпер" игрок решил начать не по правилам, и начал использовать читы в целях победы</p>
-                </a>
-            </div>
+      </div>
+      <div class="content-2" id="video">
+        <div class="components">
+          <a href="https://youtu.be/wb9SfsxcWHw" class="component">
+            <img
+              src="https://new.kredwi.ru/img/previews/hdmi.jpg"
+              alt=""
+              srcset=""
+            />
+            <h6 class="design-color">Где скачивать моды?</h6>
+            <p>
+              В этом видео я вам расскажу про то, какие сайты использовал
+              каждый, для того что бы скачивать моды в Майнкрафт. Все мы любим
+              играть с модами, но у нас всегда появляется вопрос. Где скачать
+              безопасно моды? В этом видео я про это расскажу.
+            </p>
+          </a>
+          <a href="https://youtu.be/pgMv4uEAWSM" class="component">
+            <img
+              src="https://new.kredwi.ru/img/previews/bbinm.jpg"
+              alt=""
+              srcset=""
+            />
+            <h6 class="design-color">
+              ЧТО СТРОИТ ЭТОТ ГЕНИЙ?! | BUILDBATTLE в Minecraft
+            </h6>
+            <p>
+              Гений построил постройку, которую сложно описать не то что
+              словами, её даже повторить невозможно.
+            </p>
+          </a>
+          <a href="https://youtu.be/lZJOzJVdaU4" class="component">
+            <img
+              src="https://new.kredwi.ru/img/previews/sinm.jpg"
+              alt=""
+              srcset=""
+            />
+            <h6 class="design-color">
+              ЭТО НЕ ПРОСТО СНАЙПЕР?? ДА ЭТО ЧИТЕР!!!! | Снайперы в Minecraft
+            </h6>
+            <p>
+              В игре "Снайпер" игрок решил начать не по правилам, и начал
+              использовать читы в целях победы
+            </p>
+          </a>
         </div>
-        <div class="content-3">
-            <div class="main-component" id="complete-plugins">
-                <h4>Готовые плагины <a href="https://github.com/kredwi"><span class="design-color">Minecraft</span></a></h4>
-            </div>
-            <div class="plugin-wrapper">
-                <button id="left-button"><i class="fas fa-chevron-left"></i></button>
-                <div class="components">
-                    <a loading="lazy"  href="https://github.com/kredwi/qaplugin" class="component">
-                        <img src="image/logo/qaplugin.webp">
-                        <h6>QAPlugin</h6>
-                    </a>
-                    <a loading="lazy"  href="https://github.com/kredwi/chathook" class="component">
-                        <img src="image/logo/chathook.png" alt="">
-                        <h6>ChatHook</h6>
-                    </a>
-                    <a loading="lazy"  href="https://github.com/Kredwi/ZombiesInfection/" class="component">
-                        <img src="image/logo/zombieinfection.webp" alt="" srcset="">
-                        <h6>ZombiesInfection</h6>
-                    </a>
-                    <a loading="lazy"  href="https://github.com/kredwi/uuidview" class="component">
-                        <img src="image/logo/uuidview.png" alt="">
-                        <h6>UUIDView</h6>
-                    </a>
-                </div>
-                <button id="right-button"><i class="fas fa-chevron-right"></i></button>
-            </div>
+      </div>
+      <div class="content-3">
+        <div class="main-component" id="complete-plugins">
+          <h4>
+            Готовые плагины
+            <a href="https://github.com/kredwi"
+              ><span class="design-color">Minecraft</span></a
+            >
+          </h4>
         </div>
-        <div class="content-4" id="setup">
-            <h3>Немножечко о сетапе</h3>
-            <div class="setup-container">
-                <div class="card">
-                    <h4><i class="fas fa-laptop"></i> Ноутбук</h4>
-                    <span class="design-color">Honor Magicbook x16 AMD 2025</span>
-                </div>
-                <div class="card">
-                    <h4><i class="fas fa-mobile-alt"></i> Телефон</h4>
-                    <span class="design-color">Xiaomi Redmi A5 2025 Ocean Blue 4/128</span>
-                </div>
-                <div class="card">
-                    <h4><i class="fas fa-briefcase"></i> Сумка для ноутбука</h4>
-                    <span class="design-color">RIVACASE 8036</span>
-                </div>
-                <div class="card">
-                    <h4><i class="fas fa-mouse"></i> Мышка</h4>
-                    <span class="design-color">DEXP DCM-807D</span>
-                </div>
-                <div class="card">
-                    <h4><i class="fas fa-square"></i> Коврик</h4>
-                    <span class="design-color">Gembird MP-GAME14</span>
-                </div>
-                <div class="card">
-                    <h4><i class="fas fa-headphones"></i> Наушники</h4>
-                    <span class="design-color">TWS K55</span>
-                </div>
-            </div>
+        <div class="plugin-wrapper">
+          <button id="left-button"><i class="fas fa-chevron-left"></i></button>
+          <div class="components">
+            <a
+              loading="lazy"
+              href="https://github.com/kredwi/qaplugin"
+              class="component"
+            >
+              <img src="image/logo/qaplugin.webp" />
+              <h6>QAPlugin</h6>
+            </a>
+            <a
+              loading="lazy"
+              href="https://github.com/kredwi/chathook"
+              class="component"
+            >
+              <img src="image/logo/chathook.png" alt="" />
+              <h6>ChatHook</h6>
+            </a>
+            <a
+              loading="lazy"
+              href="https://github.com/Kredwi/ZombiesInfection/"
+              class="component"
+            >
+              <img src="image/logo/zombieinfection.webp" alt="" srcset="" />
+              <h6>ZombiesInfection</h6>
+            </a>
+            <a
+              loading="lazy"
+              href="https://github.com/kredwi/uuidview"
+              class="component"
+            >
+              <img src="image/logo/uuidview.png" alt="" />
+              <h6>UUIDView</h6>
+            </a>
+          </div>
+          <button id="right-button">
+            <i class="fas fa-chevron-right"></i>
+          </button>
         </div>
+      </div>
+      <div class="content-4" id="setup">
+        <h3>Немножечко о сетапе</h3>
+        <div class="setup-container">
+          <div class="card">
+            <h4><i class="fas fa-laptop"></i> Ноутбук</h4>
+            <span class="design-color">Honor Magicbook x16 AMD 2025</span>
+          </div>
+          <div class="card">
+            <h4><i class="fas fa-mobile-alt"></i> Телефон</h4>
+            <span class="design-color"
+              >Xiaomi Redmi A5 2025 Ocean Blue 4/128</span
+            >
+          </div>
+          <div class="card">
+            <h4><i class="fas fa-briefcase"></i> Сумка для ноутбука</h4>
+            <span class="design-color">RIVACASE 8036</span>
+          </div>
+          <div class="card">
+            <h4><i class="fas fa-mouse"></i> Мышка</h4>
+            <span class="design-color">DEXP DCM-807D</span>
+          </div>
+          <div class="card">
+            <h4><i class="fas fa-square"></i> Коврик</h4>
+            <span class="design-color">Gembird MP-GAME14</span>
+          </div>
+          <div class="card">
+            <h4><i class="fas fa-headphones"></i> Наушники</h4>
+            <span class="design-color">TWS K55</span>
+          </div>
+        </div>
+      </div>
 
-        <div class="content-5" id="last-laptop">
-                <div class="wrapper">
-                    <img loading="lazy" src="image/laptop.png" alt="">
-                    <div class="data-wrapper">
-                        <h3>Kredwi - сбитый, но не убитый.</h3>
-                        <p>В <span class="design-color">11.08.2025</span> сломался ноутбук <span class="design-color">Acer Extensa 2519</span>. 6 Лет он служил верой и правдой, но нечего не бывает вечным. По предварительным предположениям, слетел BIOS.</p>
-                    </div>
-                </div>
+      <div class="content-5" id="last-laptop">
+        <div class="wrapper">
+          <img loading="lazy" src="image/laptop.png" alt="" />
+          <div class="data-wrapper">
+            <h3>Kredwi - сбитый, но не убитый.</h3>
+            <p>
+              В <span class="design-color">11.08.2025</span> сломался ноутбук
+              <span class="design-color">Acer Extensa 2519</span>. 6 Лет он
+              служил верой и правдой, но нечего не бывает вечным. По
+              предварительным предположениям, слетел BIOS.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <div id="footer">
-        <ul>
-            <li title="YouTube"><a href="https://www.youtube.com/channel/UCH-f_szwD2msRXhwMmePeiA" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li title="Twitch"><a href="https://www.twitch.tv/kredwi" target="_blank"><i class="fab fa-twitch"></i></a></li>
-            <li title="Discord"><a href="https://discord.gg/gN4MWwQzMQ" target="_blank"><i class="fab fa-discord"></i></a></li>
-            <li title="Steam"><a href="https://steamcommunity.com/id/kredwi" target="_blank"><i class="fab fa-steam"></i></a></li>
-            <li title="GitHub"><a href="https://github.com/Kredwi" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li title="Группа ВК"><a href="https://vk.com/official_kredwi" target="_blank"><i class="fab fa-vk"></i></a></li>
-            <li title="Twitter (X)"><a href="https://twitter.com/KredwiO" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li title="Instagram"><a href="https://instagram.com/kredwi" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li title="Написать на почту"><a href="mailto:kredwicraft@gmail.com" target="_blank"><i class="fab fa-at"></i></a></li>
-        </ul>
-        <p>Kredwi &copy; 2019 - 2026</p>
+      <ul>
+        <li title="YouTube">
+          <a
+            href="https://www.youtube.com/channel/UCH-f_szwD2msRXhwMmePeiA"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li title="Twitch">
+          <a href="https://www.twitch.tv/kredwi" target="_blank"
+            ><i class="fab fa-twitch"></i
+          ></a>
+        </li>
+        <li title="Discord">
+          <a href="https://discord.gg/gN4MWwQzMQ" target="_blank"
+            ><i class="fab fa-discord"></i
+          ></a>
+        </li>
+        <li title="Steam">
+          <a href="https://steamcommunity.com/id/kredwi" target="_blank"
+            ><i class="fab fa-steam"></i
+          ></a>
+        </li>
+        <li title="GitHub">
+          <a href="https://github.com/Kredwi" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li title="Группа ВК">
+          <a href="https://vk.com/official_kredwi" target="_blank"
+            ><i class="fab fa-vk"></i
+          ></a>
+        </li>
+        <li title="Twitter (X)">
+          <a href="https://twitter.com/KredwiO" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li title="Instagram">
+          <a href="https://instagram.com/kredwi" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li title="Написать на почту">
+          <a href="mailto:kredwicraft@gmail.com" target="_blank"
+            ><i class="fab fa-at"></i
+          ></a>
+        </li>
+      </ul>
+      <p>Kredwi &copy; 2019 - 2026</p>
     </div>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
