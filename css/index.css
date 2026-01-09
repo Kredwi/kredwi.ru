@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   font-family: Lato, Arial, sans-serif;
@@ -39,7 +40,8 @@ h3 {
   width: auto;
 }
 
-.main-component, .components .component {
+.main-component,
+.components .component {
   background-color: white;
   margin: 20px;
   border-radius: 20px;

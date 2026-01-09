@@ -1,45 +1,47 @@
 #footer {
-    text-align: center;
-    background-color: #eff5f9;
-    padding: 10px;
-    color: gray;
-    ul {
+  text-align: center;
+  background-color: #eff5f9;
+  padding: 10px;
+  color: gray;
+  ul {
     text-decoration: none;
     padding: 0;
     li {
-        list-style-type: none;
-        display: inline;
+      list-style-type: none;
+      display: inline;
     }
     a {
-        color: #66727f;
-        font-size: 30px;
-        font-family: "Bad Script", cursive;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        margin: 5px;
+      color: #66727f;
+      font-size: 30px;
+      font-family: "Bad Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      margin: 5px;
     }
     a:hover {
-    animation: link-animation-hover 1s ease 0s 1 alternate forwards;
+      animation: link-animation-hover 1s ease 0s 1 alternate forwards;
     }
     a:active {
-    animation: link-animation-active 0.5s ease 0s 1 alternate forwards;
+      animation: link-animation-active 0.5s ease 0s 1 alternate forwards;
     }
-}
+  }
 }
 
 @keyframes link-animation-hover {
-    from {
-        color: #66727f;
-    } to {
-        color: #0952ef;
-    }
+  from {
+    color: #66727f;
+  }
+  to {
+    color: #0952ef;
+  }
 }
 
 @keyframes link-animation-active {
-    from {
-        color: #0952ef;
-    } to {
-        color: #0b43bc;
-    }
+  from {
+    color: #0952ef;
+  }
+  to {
+    color: #0b43bc;
+  }
 }
