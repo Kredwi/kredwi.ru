@@ -1,0 +1,22 @@
+#data h1 {
+  color: rgb(255, 0, 0);
+}
+
+.content-1 {
+  background: linear-gradient(86deg, #ffc6c6 0%, #ffffff 100%);
+}
+
+#faq {
+  display: flex;
+}
+
+#setup {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .content-4 .setup-container {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=hacked.css.map */
