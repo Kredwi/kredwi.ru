@@ -19,4 +19,7 @@
   .content-4 .setup-container {
     grid-template-columns: 1fr;
   }
+  #faq {
+    flex-direction: column;
+  }
 }
