@@ -52,13 +52,6 @@
           display: inline;
           position: absolute;
         }
-        #right-button {
-          right: 0;
-        }
-        #left-button {
-          left: 0;
-        }
-
         .components {
           flex-wrap: nowrap;
           justify-content: flex-start;
@@ -99,7 +92,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .content-1 {
     #main-data {
       align-items: center;

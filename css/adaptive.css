@@ -1,3 +1,16 @@
+.content-wrapper {
+  max-width: 1200px;
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4,
+.content-5 {
+  display: flex;
+  justify-content: center;
+}
+
 body,
 html {
   padding: 0;
@@ -28,6 +41,10 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  width: 100%;
+}
+.content-1 #main-data #data {
+  margin: 5%;
 }
 .content-1 #main-data #data h1 {
   font-weight: 700;
@@ -176,11 +193,9 @@ h3 {
   justify-content: center;
 }
 .content-5 .wrapper {
-  width: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
 }
 .content-5 .wrapper .data-wrapper p {
   font-size: 16px;
@@ -189,6 +204,12 @@ h3 {
 .content-5 .wrapper img {
   width: 300px;
   height: auto;
+}
+
+#last-laptop .content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes box-animation {
@@ -243,12 +264,6 @@ h3 {
     display: inline;
     position: absolute;
   }
-  .content-3 .plugin-wrapper #right-button {
-    right: 0;
-  }
-  .content-3 .plugin-wrapper #left-button {
-    left: 0;
-  }
   .content-3 .plugin-wrapper .components {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -277,7 +292,7 @@ h3 {
     flex-direction: column;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .content-1 #main-data {
     align-items: center;
     flex-direction: column-reverse;
