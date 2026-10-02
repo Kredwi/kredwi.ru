@@ -42,6 +42,15 @@ a {
   color: $design-color;
 }
 
+.gradient-text {
+  background: linear-gradient(90deg, $design-color, $color-text, $color-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+  background-size: 300% 100%;
+}
+
 h3 {
   font-size: 32px;
   line-height: 40px;
