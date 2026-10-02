@@ -1,3 +1,8 @@
+.burder-wrapper {
+  position: relative;
+  animation: slide 0.1s ease-in-out;
+}
+
 .content-wrapper {
   max-width: 1200px;
 }
@@ -228,5 +233,13 @@ h3 {
   }
   to {
     box-shadow: 0 1px 5px #e3ecff, 0 6px 18px rgba(209, 224, 253, 0.8);
+  }
+}
+@keyframes slide {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
   }
 }/*# sourceMappingURL=index.css.map */

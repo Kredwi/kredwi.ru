@@ -13,7 +13,10 @@ $default-padding: 20px;
   align-items: center;
   justify-content: center;
 }
-
+.burder-wrapper {
+  position: relative;
+  animation: slide 0.1s ease-in-out;
+}
 .content-wrapper {
   max-width: 1200px;
 }
@@ -253,5 +256,13 @@ h3 {
     box-shadow:
       0 1px 5px #e3ecff,
       0 6px 18px #d1e0fdcc;
+  }
+}
+@keyframes slide {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%;
   }
 }
