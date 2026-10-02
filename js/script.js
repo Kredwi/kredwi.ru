@@ -1,5 +1,3 @@
-const components = document.querySelector(".components");
-
 const burderMenu = document.getElementById("burder-menu");
 function toggleBurgerMenu() {
   if (window.getComputedStyle(burderMenu).display == "none")

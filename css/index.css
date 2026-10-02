@@ -27,6 +27,10 @@ a {
   color: #0d4cd3;
 }
 
+/* .gradient-text {
+  background-color: #1d5deb;
+  text-
+} */
 h3 {
   font-size: 32px;
   line-height: 40px;
@@ -63,7 +67,9 @@ h3 {
   margin: 20px;
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 0 1px 4px #e3ecff, 0 6px 16px rgba(230, 235, 245, 0.8);
+  box-shadow:
+    0 1px 4px #e3ecff,
+    0 6px 16px rgba(230, 235, 245, 0.8);
   justify-items: left;
   align-items: center;
 }
@@ -178,7 +184,9 @@ h3 {
 .content-4 .card {
   display: grid;
   background-color: white;
-  box-shadow: 0 1px 4px #e3ecff, 0 6px 16px rgba(230, 235, 245, 0.8);
+  box-shadow:
+    0 1px 4px #e3ecff,
+    0 6px 16px rgba(230, 235, 245, 0.8);
   padding: 15px;
   border-radius: 14px;
 }
@@ -216,9 +224,13 @@ h3 {
 
 @keyframes box-animation {
   from {
-    box-shadow: 0 1px 4px #e3ecff, 0 6px 16px rgba(230, 235, 245, 0.8);
+    box-shadow:
+      0 1px 4px #e3ecff,
+      0 6px 16px rgba(230, 235, 245, 0.8);
   }
   to {
-    box-shadow: 0 1px 5px #e3ecff, 0 6px 18px rgba(209, 224, 253, 0.8);
+    box-shadow:
+      0 1px 5px #e3ecff,
+      0 6px 18px rgba(209, 224, 253, 0.8);
   }
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
